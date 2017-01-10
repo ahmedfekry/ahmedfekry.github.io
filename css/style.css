@@ -729,8 +729,17 @@ h3.title {
 .about-left {
     float: left;
     width: 65%;
-	padding-left: 0;
+    padding-left: 0;
 }
+.about-center{
+    /*width: 65%;*/
+    padding-left: 0;
+    padding: 0% 10% 0% 10%;
+    width: 100%;
+}
+
+
+
 .about-right {
     float: right;
     width: 35%;
@@ -1099,3 +1108,8 @@ h3.title {
 
 }
 /*--//responsive-design---*/
+.about-center p {
+    text-justify: inter-word;
+    text-align: justify; 
+    /*text-indent: 20px;*/
+}
