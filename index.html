@@ -102,8 +102,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<div class="menu">
-					<ul class="nav navbar">
-						<li><a href="#about" class="scroll">About</a></li>
+					<ul id="nav" class="nav navbar">
+						<li class="current"><a href="#about" class="scroll">About</a></li>
 						<li><a href="#work" class="scroll">Experience</a></li>
 						<li><a href="#education" class="scroll">Education</a></li>
 						<li><a href="#skills" class="scroll">Skills</a></li>
@@ -121,8 +121,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<h3 class="title"> About Me</h3>
 			<div class="about-center">
-				<p class="textarea_">Nah, I don't like taking about my self and i realy don't know what to write but let me introduce myself in few words. I am Ahmed Mohammed Fekry, graduated from faculty of computers and infromation cairo university with bachelor's degree in computer science. I am web developer i have worked in few componies most of them were start-ups and i had a greet experiance with each one of them, personaly i am not that type of a corporate guy i love working for start-ups </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet sem sit amet dolor luctus pellentesque Nam egestas molestie elit. Vivamus sed accumsan quam, a mollis magna. Nam aliquet eros eget sapien consequat</p>
+				<p class="textarea_">Nah, I don't like taking about my self and i realy don't know what to write but let me introduce myself in few words. I am Ahmed Mohammed Fekry, graduated from faculty of computers and infromation cairo university with bachelor's degree in computer science. I am web developer i have worked in few componies most of them were start-ups and i had a greet experiance with each one of them, personaly i am not that type of a corporate guy i love working for start-ups because in my opnion it is more challanging and you face too many obstacles every day and of caurse to will learn more and more while solving these problems. In 2014 i was a software enigneering intern at <strong> Technology Innovation and Entrepreneurship Center </strong> where i had a greet experiance in Software engineering and Agile methodology specifically. That traing was like a starting point for me to fall in love with software engineering. From then untill now i have worked for many startups in the development industry.</p>
+				<hr>
+				<p>I graduated from faculty of computers and information Cairo University, major CS, minor IS, i have competitive skills in problem solving and a solid bases in Datastructure  and OOP using c++ and java. i have experience in agile and scrum process models and in software engineering. i have experience in using version control(git & github & zenhub) and the software development work flow using this tools. i have experience in c/c++ & java & php & ruby on rails . i am looking for out of the box ideas and team developing large projects.
+
+ 				Seeking a challenging positions or projects in computer science within a spectacular teamwork where extensive experience will be further developed and utilized. To work in a position where i get more knowledge in embedded applications and my skills is utilized to the fullest extent..</p>
 			</div>
 			<!-- <div class="col-md-4 about-right">
 				<ul>
@@ -145,11 +148,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3 class="title">Work Experience</h3>
 			<div class="work-info"> 
 				<div class="col-md-6 work-left"> 
-					<h4>2014 - 2016 </h4>
+					<h4>NOV 2016 - Now </h4>
 				</div>
 				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-briefcase"> </span> Company Name</h5>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> Back-end Developer at Ivas </h5>
+					<p>I am working as a back-end developer at Ivas compony in Cairo. It is specialized in VAS filed. My main role is to develop an internal system to the compony it is a task management system where the managers and the high board can manage the team and monitor the company projects, the system also provide a reports to the manager about each project status and reports about the employees performance the delivery dates of their tasks which provide a KPIs for the employees. I also work on the compony client's websites. I am responsible for the architecture and design for every project I work on which add a greet experience to my design and software engineering skills</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -570,7 +573,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--footer-->
 	<div class="footer">
 		<div class="container">
-			<p>© 2016 My Resume. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			<!-- <p>© 2016 My Resume. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p> -->
 		</div>
 	</div>
 	<!--//footer-->
@@ -594,5 +597,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.nav.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#nav').onePageNav({changeHash: true});
+			// alert('sd');
+		});
+	</script>
 </body>
 </html>
