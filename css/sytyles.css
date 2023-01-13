@@ -361,7 +361,7 @@ section.about {
     background-color: #29d7e1;
     padding: 5px;
     border-radius: 5px;
-    width: 25%;
+    width: fit-content;
     text-align: center;
 }
 
