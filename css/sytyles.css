@@ -481,6 +481,7 @@ section.about {
     background-color: #e9ebed;
     padding: 30px 20px;
     border-radius: 10px;
+    position: relative;
 }
 
 .items-left {
@@ -615,4 +616,24 @@ form h1 {
 
 .center-text{
     text-align: center;
+}
+
+.item::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    background-color: #29d7e1;
+    right: 0px;
+    top: 50px;
+    height: 101px;
+}
+
+.item::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    background-color: #29d7e1;
+    left: 0px;
+    top: 50px;
+    height: 101px;
 }
