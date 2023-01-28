@@ -46,6 +46,4 @@ I want to continue learning media queries and how to use flex box on designing r
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@ahmedfekry](https://www.frontendmentor.io/profile/ahmedfekry)
-- Twitter - [@ahmedfikry78](https://twitter.com/ahmedfikry78)
