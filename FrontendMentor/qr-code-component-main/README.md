@@ -38,7 +38,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned how to use flex box and media queries to design response website 
+I learned how to use flex box and media queries to design response website. i learned also box sizing and how it is usefull in not including the padding and border in the rendered width of the element
+
 
 ### Continued development
 
