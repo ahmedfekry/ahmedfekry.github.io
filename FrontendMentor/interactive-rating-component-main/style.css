@@ -1,0 +1,137 @@
+/* variables */
+
+:root{
+    --backColor: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+html{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+/* reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* mobile design */
+main{
+    background-color: var(--VeryDarkBlue);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rating-state{
+    width: 300px;
+    background-color: var(--DarkBlue);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.star{
+    background-color: hsl(213, 19%, 23%);
+    padding: 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-state h1{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.rating-state p{
+    color: var(--LightGrey);
+}
+
+label{
+    background-color: hsl(213, 19%, 23%);
+    height: 2.75rem;
+    width: 2.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(217, 12%, 63%);
+}
+
+input{
+    display: none;
+}
+
+.rating-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+label:hover{
+    background-color: var(--LightGrey);
+    color: white;
+    cursor: pointer;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: var(--backColor);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: var(--LightGrey);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.result{
+    text-align: center;
+    color: var(--backColor);
+    font-weight: 400;
+}
+
+.result + *{
+    text-align: center;
+}
+.attribution{
+    justify-self: flex-end;
+    display: none;
+}
