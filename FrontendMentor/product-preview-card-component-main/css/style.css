@@ -124,7 +124,7 @@ body{
     .product{
         display: flex;
         flex-direction: row;
-        grid-column: 4/10;
+        grid-column: 5/9;
         margin-top: 150px;
         max-height: 400px;
         justify-content: center;
