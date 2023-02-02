@@ -126,11 +126,22 @@ label:hover{
     text-align: center;
     color: var(--backColor);
     font-weight: 400;
+    background-color: hsl(217deg 11% 28%);
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.active{
+    background-color: var(--backColor) !important;
+    color: white;
 }
 
 .result + *{
     text-align: center;
 }
+
 .attribution{
     justify-self: flex-end;
     display: none;

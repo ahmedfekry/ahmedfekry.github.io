@@ -30,7 +30,7 @@
 
   <!-- Rating state start -->
   <main>
-    <div class="rating-state ">
+    <div class="rating-state " id="main-result">
       <div class="star">
         <img src="./images/icon-star.svg" alt="">
       </div>
@@ -61,14 +61,14 @@
     </div>
 
     <!-- Rating state end -->
-    <br>
+    
     <!-- Thank you state start -->
-    <div class="rating-state " >
+    <div class="rating-state hidden " id="result" >
       <div class="image">
         <img src="./images/illustration-thank-you.svg" alt="">
       </div>
       <div class="result">
-        You selected <!-- Add rating here --> out of 5
+        You selected <span id="rating"></span> out of 5
       </div>
       <h1>
         Thank you!
@@ -86,7 +86,21 @@
 
   </main>
   <!-- Thank you state end -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script>
+    $('label').click(function (event) {
+      $('label').removeClass('active');
+      $(this).addClass('active');
+    });
 
+    $('.btn').click(function () { 
+      var value = $('input[name="ratings"]:checked').val();
+      // alert(value);
+      $('#rating').html(value);
+      $('#main-result').addClass('hidden');
+      $('#result').removeClass('hidden');
+    });
+  </script>
 </body>
 
 </html>
