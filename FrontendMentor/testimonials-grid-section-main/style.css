@@ -1,0 +1,130 @@
+/* variables */
+
+:root {
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Light-grayish-blue);
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed";
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.purple {
+    background-color: var(--Moderate-violet);
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size: 40%;
+}
+
+.dark-gray {
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+.white {
+    background-color: white;
+}
+
+.dark-blue {
+    background-color: var(--Very-dark-blackish-blue);
+}
+
+.container {
+    width: 320px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+}
+
+.profile img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    max-width: 40px;
+}
+
+.purple .profile img{
+    border: 3px solid hsl(263deg 30% 60%);
+}
+
+.dark-gray .profile img{
+    border: 3px solid var(--Light-gray);
+}
+
+.dark-blue .profile img{
+    border: 3px solid var(--Moderate-violet);
+}
+
+.title h2{
+    color: var(--White);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.title h3{
+    color: var(--Light-gray);
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.open{
+    margin: 25px 0px 25px 0px;
+    color: var(--White);
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.open + p{
+    color: var(--White);
+    opacity: 70%;
+    font-weight: 400;
+}
+
+.white  .title  h2{
+    color: var(--Very-dark-grayish-blue) !important;
+}
+
+.white  .title h3{
+    color: var(--Very-dark-grayish-blue);
+    opacity: 0.5;
+}
+
+.white .open{
+    color: var(--Very-dark-grayish-blue);
+}
+
+.white p{
+    color: var(--Very-dark-grayish-blue);
+    opacity: 0.7;
+}
