@@ -15,9 +15,12 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 13px;
+}
+
 body {
     background-color: var(--Light-grayish-blue);
-    font-size: 13px;
     font-family: "Barlow Semi Condensed";
 }
 
@@ -135,7 +138,7 @@ main{
 
 @media screen and (min-width: 1200px) {
     main{
-        max-width: 70%;
+        max-width: 80%;
         padding: 0;
         margin: 0 auto;
         max-height: 600px;
