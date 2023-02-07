@@ -1,9 +1,19 @@
-
+body{
+    font-size: 18px;
+}
 .offcanvas{
     --bs-offcanvas-width: 200px !important;
 }
 
 main{
     min-height: 100vh;
-    padding-bottom: 100px;
+}
+
+img{
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+p{
+    color: hsl(0, 0%, 41%);
 }
