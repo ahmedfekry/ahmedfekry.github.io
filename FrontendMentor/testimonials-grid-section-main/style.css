@@ -23,7 +23,13 @@ body {
     background-color: var(--Light-grayish-blue);
     font-family: "Barlow Semi Condensed";
 }
-
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -92,7 +98,7 @@ main{
     border: 3px solid var(--Moderate-violet);
 }
 
-.title h2{
+.title h1{
     color: var(--White);
     font-size: 1rem;
     font-weight: 600;
@@ -117,7 +123,7 @@ main{
     font-weight: 400;
 }
 
-.white  .title  h2{
+.white  .title  h1{
     color: var(--Very-dark-grayish-blue) !important;
 }
 
@@ -143,7 +149,6 @@ main{
         margin: 0 auto;
         max-height: 600px;
         display: grid;
-        margin-top: 100px;
         grid-template-columns: repeat(8,1fr);
         grid-template-rows: repeat(8,1fr); 
         gap: 20px;
