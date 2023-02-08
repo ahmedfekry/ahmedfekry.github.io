@@ -11,9 +11,18 @@ main{
 
 img{
     max-height: 500px;
+}
+
+.img-fluid{
     margin: 0 auto;
 }
 
 p{
     color: hsl(0, 0%, 41%);
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown-menu{
+        box-shadow: none !important;
+    }
 }
