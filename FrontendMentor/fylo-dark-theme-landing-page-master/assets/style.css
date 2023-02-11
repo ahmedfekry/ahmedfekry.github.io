@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@400;700&family=Outfit&family=Overpass:wght@400;700&display=swap');
+
+
+/* ### Primary */
+
+:root{
+    /* (intro and email sign up background) */
+    --Dark-Blue: hsl(217, 28%, 15%);  
+    /* (main background) */
+    --Dark-Blue-m: hsl(218, 28%, 13%);
+    /* (footer background) */
+    --Dark-Blue-f: hsl(216, 53%, 9%);
+    /* (testimonials background) */
+    --Dark-Blue-t: hsl(219, 30%, 18%);
+    /* (inside call-to-action gradient) */
+    --Cyan: hsl(176, 68%, 64%);
+    /* (inside call-to-action gradient) */
+    --Blue: hsl(198, 60%, 50%);
+    /* (error) */
+    --Light-Red : hsl(0, 100%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --bs-body-font-size: 14px;
+}
+
+
+body{
+    font-family: 'Barlow Semi Condensed';
+    background-color: var(--Dark-Blue-m);
+}
+
+.blue-dark{
+    background-color: var(--Dark-Blue);
+}
+
+.blue-dark-t{
+    background-color: var(--Dark-Blue-t);
+}
+
+.blue-dark-f{
+    background-color: var(--Dark-Blue-f);
+}
+
+.bg-blue{
+    background-image: linear-gradient(to left, var(--Blue),var(--Cyan));
+    color: var(--White);
+}
+
+.nav-link, h1,h2 , p ,h3,h4,h5,h6, .btn-st{
+    color: var(--White);
+}
+
+.nav-link{
+    font-weight: 400;
+}
+
+#intro{
+    background-color: var(--Dark-Blue);
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 500px;
+}
+
+main{
+    background-color: var(--Dark-Blue-m);
+}
+
+#productive{
+
+}
+
+#show-more{
+    color: var(--Cyan);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#show-more{
+    border-bottom: 2px solid var(--Cyan);
+    padding-bottom: 10px;
+}
+
+.profile-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.info p{
+    font-size: 0.7rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.bg-qu{
+    background-image: url("../images/bg-quotes.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.sign-up{
+    z-index: 2 !important;
+    margin-top: 150px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 12px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 12px -1px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 12px -1px rgba(0,0,0,0.75);
+}
+
+.sign-up p{
+    font-family: sans-serif;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 0.5;
+    font-weight: lighter;
+}
+
+footer{
+    z-index: 1;
+    position: relative;
+    margin-top: -150px;
+}
+
+.footer-container{
+    padding-top: 150px;
+}
+
+.footer-info img{
+    max-height: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.icons{
+    gap: 20px;
+    font-size: 2rem;
+}
+
+.icons i{
+    color: white;
+}
+
+.acc-img{
+    max-height: 78px;
+}
+
+@media (min-width: 768px){
+    .col-md-3-5 {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+
+    #intro{
+        background-image: url(../images/bg-curvy-desktop.svg);
+        background-size: contain;
+    }
+}
