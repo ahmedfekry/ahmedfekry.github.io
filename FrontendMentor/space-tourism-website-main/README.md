@@ -69,4 +69,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ahmedfekry)
-- Twitter - [@ahmedfekry78](https://www.twitter.com/ahmedfekry78)
+- Twitter - [@ahmedfikry78](https://www.twitter.com/ahmedfikry78)
