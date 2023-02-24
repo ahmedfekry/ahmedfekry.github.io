@@ -1,0 +1,86 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+
+/* - Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%) */
+:root{
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --neon-creen: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+    --font-family: "Manrope";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+main{
+    height: 100vh;
+    background-color: var(--Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-container{
+    background-color: var(--Dark-Grayish-Blue);
+    width: 80%;
+    max-width: 35rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.advice-container h6{
+    text-align: center;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin: 20px auto;
+    color: var(--neon-creen);
+    font-family: var(--font-family);
+}
+
+.advice-container h2{
+    color: var(--Light-Cyan);
+    text-align: center;
+}
+
+.image-container{
+    padding: 1rem;
+    background-color: var(--neon-creen);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem auto -4rem auto;
+    display: flex;
+}
+
+.image-container img{
+    margin: 0 auto;
+}
+
+.advice-container img{
+    width: 100%;
+}
+
+
+.image-container:hover,.image-container:active{
+    -webkit-box-shadow: 0px 0px 20px 0px var(--neon-creen);
+    -moz-box-shadow: 0px 0px 20px 0px var(--neon-creen);
+    box-shadow: 0px 0px 20px 0px var(--neon-creen);
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -ms-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+}
