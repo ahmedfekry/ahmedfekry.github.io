@@ -78,6 +78,13 @@ body{
     background-size: cover;
 }
 
+
+.technology{
+    background-image: url(../images/technology/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .navbar-toggler-icon{
     background-image: url("../images/shared/icon-hamburger.svg")
 }
@@ -221,7 +228,7 @@ a.active{
     Crew Styles
 */
 
-.container-grid{
+.container-grid, .container-grid-tech{
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     width: 80%;
@@ -280,6 +287,29 @@ a.active{
     background-color: white;
 }
 
+.tech-dot{
+    background-color: #80808000;
+    border: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid white;
+    color: white;
+}
+
+.tech-dot.active{
+    background-color: white;
+    color: black;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100% !important;
+}
 
 @media screen and (min-width: 576px) {
     .home{
@@ -328,6 +358,10 @@ a.active{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    
+    .technology{
+        background-image: url(../images/technology/background-technology-tablet.jpg);
+    }
 
     .container-grid{
         grid-template-areas: "title"
@@ -356,13 +390,34 @@ a.active{
     .crew{
         background-image: url(../images/crew/background-crew-desktop.jpg);
     }
-
+    .technology{
+        background-image: url(../images/technology/background-technology-desktop.jpg);
+    }
     .container-grid{
         width: 70%;
         justify-items: start;
         grid-template-areas: "title title"
                              "content image"
                              "tabs image";
+    }
+
+    .container-grid-tech{
+        width: 90%;
+        grid-template-areas: "title title image"
+                             "tabs content image"
+                             "tabs content image";
+    }
+
+    .img-fluid#vehicle-image{
+        content: url(../images/technology/image-launch-vehicle-portrait.jpg);
+    }
+
+    .img-fluid#spaceport-image{
+        content: url(../images/technology/image-spaceport-portrait.jpg);
+    }
+
+    .img-fluid#capsule-image{
+        content: url(../images/technology/image-space-capsule-portrait.jpg);
     }
 }
 
@@ -389,3 +444,4 @@ a.active{
         width: 45%;
     }
 }
+
