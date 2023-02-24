@@ -100,7 +100,7 @@ body{
 .offcanvas{
     background: hsl( var(--white) / 0.05) !important;
     backdrop-filter: blur(1.5rem);
-  
+    -webkit-backdrop-filter: blur(1.5rem);
 }
 
 .nav-item a{
@@ -323,6 +323,7 @@ a.active{
     .navbar-expand-sm .offcanvas{
         background-color: hsl( var(--white) / 0.05) !important;
         backdrop-filter: blur(1.5rem);
+        -webkit-backdrop-filter: blur(1.5rem);
     }
 
     .offcanvas{
