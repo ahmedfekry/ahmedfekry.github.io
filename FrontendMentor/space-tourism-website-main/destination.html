@@ -2,74 +2,176 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Frontend Mentor | Space tourism website</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
-    rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="home">
-  <header>
-    <nav class="navbar navbar-expand-sm justify-content-sm-between mt-md-4">
-      <a class="navbar-brand ms-3 ms-md-5 mt-3 mt-md-0" href="#"><img src="./assets/images/shared/logo.svg" alt=""></a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <hr class="d-none d-md-inline line">
-      <div class="offcanvas offcanvas-end justify-content-center align-content-center" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header justify-content-end">
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body mt-5 mt-sm-0">
-          <ul class="navbar-nav justify-content-between justify-content-sm-between 
+<body class="destination">
+    <header>
+        <nav class="navbar navbar-expand-sm justify-content-sm-between mt-md-4">
+            <a class="navbar-brand ms-3 ms-md-5 mt-3 mt-md-0" href="#"><img src="./assets/images/shared/logo.svg"
+                    alt=""></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <hr class="d-none d-md-inline line">
+            <div class="offcanvas offcanvas-end justify-content-center align-content-center" tabindex="-1"
+                id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header justify-content-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body mt-5 mt-sm-0">
+                    <ul class="navbar-nav justify-content-between justify-content-sm-between 
                     ms-sm-4 gap-sm-3 gap-md-0 justify-content-md-around 
                     flex-grow-1 pe-3 ff-sans-cond">
-            <li class="nav-item py-sm-4">
-              <a class="nav-link" href="./index.html"><span class="d-sm-none d-md-inline">00</span> Home</a>
-            </li>
-            <li class="nav-item py-sm-4">
-              <a class="nav-link active" aria-current="page" href="#"><span class="d-sm-none d-md-inline">01</span> Destination</a>
-            </li>
-            <li class="nav-item py-sm-4">
-              <a class="nav-link" href="./crew.html"><span class="d-sm-none d-md-inline">02</span> Crew</a>
-            </li>
-            <li class="nav-item py-sm-4">
-              <a class="nav-link" href="./technology.html"><span class="d-sm-none d-md-inline">03</span> Technology</a>
-            </li>
-          </ul>
+                        <li class="nav-item py-sm-4">
+                            <a class="nav-link" href="./index.html"><span class="d-sm-none d-md-inline">00</span>
+                                Home</a>
+                        </li>
+                        <li class="nav-item py-sm-4">
+                            <a class="nav-link active" aria-current="page" href="#"><span
+                                    class="d-sm-none d-md-inline">01</span> Destination</a>
+                        </li>
+                        <li class="nav-item py-sm-4">
+                            <a class="nav-link" href="./crew.html"><span class="d-sm-none d-md-inline">02</span>
+                                Crew</a>
+                        </li>
+                        <li class="nav-item py-sm-4">
+                            <a class="nav-link" href="./technology.html"><span class="d-sm-none d-md-inline">03</span>
+                                Technology</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container d-flex justify-content-center align-items-center mt-sm-5 mt-md-3">
+        <div class="row justify-content-center mt-4 mt-md-0 pt-md-5 gap-5 text-md-start text-center" id="parent">
+            <div class="col-10 col-md-5 white-color">
+                <h5 class="title--destination ff-sans-cond text-uppercase text-center"><span>01</span> Pick your destination</h5>
+                <div class="p-3 p-md-5">
+                    <img src="./assets/images/destination/image-moon.png" id="moon-image" class="img-fluid" alt="">
+                    <img src="./assets/images/destination/image-mars.png" id="mars-image" hidden class="img-fluid" alt="">
+                    <img src="./assets/images/destination/image-europa.png" id="europa-image" hidden class="img-fluid" alt="">
+                    <img src="./assets/images/destination/image-titan.png" id="titan-image" hidden class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-10 col-md-5 d-flex flex-column justify-content-center mt-md-5">
+                <ul class="tab-list d-flex justify-content-center ps-0 gap-4 text-uppercase ff-sans-normal"
+                    role="tablist">
+                    <li class="tab-item" aria-selected="true" role="tab" aria-controls="moon-tab" tabindex="0"
+                     data-image="moon-image"><a class="active" href="#">Moon</a></li>
+
+                    <li class="tab-item" aria-selected="false" role="tab" aria-controls="mars-tab" tabindex="-1"
+                    class="light-color" data-image="mars-image"><a  href="#">Mars</a></li>
+
+                    <li class="tab-item" aria-selected="false" role="tab" aria-controls="europa-tab" tabindex="-1"
+                    class="light-color" data-image="europa-image"><a  href="#">Europa</a></li>
+
+                    <li class="tab-item" aria-selected="false" role="tab" aria-controls="titan-tab" tabindex="-1"
+                    class="light-color" data-image="titan-image"><a  href="#">Titan</a></li>
+                </ul>
+
+                <article id="moon-tab" tabindex="0" role="tabpanel">
+                    <h1 class="fs-900 ff-serif white-color py-3 text-uppercase text-center">Moon</h1>
+                    <p class="white-color ff-sans-cond">See our planet as you’ve never seen it before. A perfect
+                        relaxing trip away to help
+                        regain perspective and come back refreshed. While you’re there, take in some history
+                        by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                    <hr class="line-divid" />
+                    <div class="destination-dist d-flex flex-row justify-content-around white-color py-4">
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Avg. distance</p>
+                            <h1>384,400 km</h1>
+                        </div>
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Est. travel time</p>
+                            <h1>3 days</h1>
+                        </div>
+                    </div>
+                </article>
+
+                <article hidden id="mars-tab" tabindex="0" role="tabpanel">
+                    <h1 class="fs-900 ff-serif white-color py-3 text-uppercase text-center">Mars</h1>
+                    <p class="white-color ff-sans-cond">Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+                        the tallest planetary mountain in our solar system. It’s two and a half times 
+                        the size of Everest!</p>
+                    <hr class="line-divid" />
+                    <div class="destination-dist d-flex flex-row justify-content-around white-color py-4">
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Avg. distance</p>
+                            <h1>225 mil. km</h1>
+                        </div>
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Est. travel time</p>
+                            <h1>9 months</h1>
+                        </div>
+                    </div>
+                </article>
+
+                <article hidden id="europa-tab" tabindex="0" role="tabpanel">
+                    <h1 class="fs-900 ff-serif white-color py-3 text-uppercase text-center">Europa</h1>
+                    <p class="white-color ff-sans-cond">The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+                        winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+                        ice skating, curling, hockey, or simple relaxation in your snug 
+                        wintery cabin.</p>
+                    <hr class="line-divid" />
+                    <div class="destination-dist d-flex flex-row justify-content-around white-color py-4">
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Avg. distance</p>
+                            <h1>628 mil. km</h1>
+                        </div>
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Est. travel time</p>
+                            <h1>3 years</h1>
+                        </div>
+                    </div>
+                </article>
+
+                <article hidden id="titan-tab" tabindex="0" role="tabpanel">
+                    <h1 class="fs-900 ff-serif white-color py-3 text-uppercase text-center">Titan</h1>
+                    <p class="white-color ff-sans-cond">The only moon known to have a dense atmosphere other than Earth, Titan 
+                        is a home away from home (just a few hundred degrees colder!). As a 
+                        bonus, you get striking views of the Rings of Saturn.</p>
+                    <hr class="line-divid" />
+                    <div class="destination-dist d-flex flex-row justify-content-around white-color py-4">
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Avg. distance</p>
+                            <h1>1.6 bil. km</h1>
+                        </div>
+                        <div class="space ff-serif text-uppercase">
+                            <p class="mb-0 light-color">Est. travel time</p>
+                            <h1>7 years</h1>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  
-  <main class="container d-flex justify-content-center align-items-center mt-sm-5">
-    <div class="row justify-content-center mt-4 pt-md-5 gap-5 text-md-start text-center">
-      <div class="col-12 col-md-5 white-color">
-        <h6 class="text-uppercase ff-sans-cond  letter-spacing-1">So, you want to travel to</h6>
-        <h1 class="text-uppercase display-6 fs-900 ff-serif ">Space</h1>
-        <p>Let’s face it; if you want to go to space, you might as well genuinely go to
-          outer space and not hover kind of on the edge of it. Well sit back, and relax
-          because we’ll give you a truly out of this world experience!</p>
-      </div>
-      <div class="col-10 col-md-5 d-flex justify-content-center">
-        <a href="#" class="text-uppercase large-btn ff-serif fs-700 bg-white">Explore</a>
-      </div>
-    </div>
-  </main>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+    </main>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/tabs.js"></script>
 </body>
 
 </html>
