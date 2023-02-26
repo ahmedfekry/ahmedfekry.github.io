@@ -139,6 +139,9 @@ footer{
         font-size: calc(0rem + 3.3vw) !important;
     }
 
+}
+
+@media screen and (min-width: 768px) {
     #blog article img{
         max-height: 144px;
     }
