@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://ahmedfekry.github.io/FrontendMentor/easybank-landing-page-master/)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/ahmedfekry/ahmedfekry.github.io/tree/master/FrontendMentor/easybank-landing-page-master/)
+- Live Site URL: [Live site](https://ahmedfekry.github.io/FrontendMentor/easybank-landing-page-master)
 
 ## My process
 
